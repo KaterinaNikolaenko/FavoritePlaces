@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0657150C1E8296ED00EEB6D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0657150B1E8296ED00EEB6D1 /* AppDelegate.swift */; };
+		0657150E1E8296ED00EEB6D1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0657150D1E8296ED00EEB6D1 /* FirstViewController.swift */; };
+		065715101E8296ED00EEB6D1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0657150F1E8296ED00EEB6D1 /* SecondViewController.swift */; };
+		065715131E8296ED00EEB6D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065715111E8296ED00EEB6D1 /* Main.storyboard */; };
+		065715151E8296ED00EEB6D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 065715141E8296ED00EEB6D1 /* Assets.xcassets */; };
+		065715181E8296ED00EEB6D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065715161E8296ED00EEB6D1 /* LaunchScreen.storyboard */; };
+		065715201E82ABDE00EEB6D1 /* MainMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0657151F1E82ABDE00EEB6D1 /* MainMap.swift */; };
+		065715221E82AC1300EEB6D1 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065715211E82AC1300EEB6D1 /* Places.swift */; };
+		065715381E82FAB100EEB6D1 /* favoritePlaces.json in Resources */ = {isa = PBXBuildFile; fileRef = 065715371E82FAB100EEB6D1 /* favoritePlaces.json */; };
+		0657153A1E83076D00EEB6D1 /* Amsterdam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 065715391E83076D00EEB6D1 /* Amsterdam.jpg */; };
+		0657153C1E83077B00EEB6D1 /* Kiev.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0657153B1E83077B00EEB6D1 /* Kiev.jpg */; };
+		0657153E1E83079700EEB6D1 /* Paris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0657153D1E83079700EEB6D1 /* Paris.jpg */; };
+		065715401E83079E00EEB6D1 /* Rome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0657153F1E83079E00EEB6D1 /* Rome.jpg */; };
+		065715421E8307B300EEB6D1 /* London.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 065715411E8307B300EEB6D1 /* London.jpg */; };
+		065715441E8307D000EEB6D1 /* Berlin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 065715431E8307D000EEB6D1 /* Berlin.jpg */; };
+		065715461E8307D600EEB6D1 /* Copenhagen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 065715451E8307D600EEB6D1 /* Copenhagen.jpg */; };
+		065715481E8307E100EEB6D1 /* Oslo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 065715471E8307E100EEB6D1 /* Oslo.jpg */; };
+		0657154A1E8307EF00EEB6D1 /* Vien.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 065715491E8307EF00EEB6D1 /* Vien.jpg */; };
+		06BAEB481E83AA020086E114 /* CustomCellFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BAEB471E83AA010086E114 /* CustomCellFirstVC.swift */; };
+		06BAEB4A1E840D6E0086E114 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BAEB491E840D6E0086E114 /* MenuVC.swift */; };
+		06BAEB4C1E8418030086E114 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BAEB4B1E8418030086E114 /* WeatherVC.swift */; };
+		06BAEB4E1E841E620086E114 /* DetailedGoogleMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BAEB4D1E841E620086E114 /* DetailedGoogleMapVC.swift */; };
+		123DEF56083CAE048EE42F9A /* Pods_FavoritePlacesV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78ADA1AE2885ADFFB3EAFA19 /* Pods_FavoritePlacesV1.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		065715081E8296ED00EEB6D1 /* FavoritePlacesV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoritePlacesV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0657150B1E8296ED00EEB6D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0657150D1E8296ED00EEB6D1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = ../FirstViewController.swift; sourceTree = "<group>"; };
+		0657150F1E8296ED00EEB6D1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
+		065715121E8296ED00EEB6D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		065715141E8296ED00EEB6D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		065715171E8296ED00EEB6D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		065715191E8296ED00EEB6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0657151F1E82ABDE00EEB6D1 /* MainMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainMap.swift; path = ../MainMap.swift; sourceTree = "<group>"; };
+		065715211E82AC1300EEB6D1 /* Places.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		065715371E82FAB100EEB6D1 /* favoritePlaces.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = favoritePlaces.json; sourceTree = "<group>"; };
+		065715391E83076D00EEB6D1 /* Amsterdam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Amsterdam.jpg; sourceTree = "<group>"; };
+		0657153B1E83077B00EEB6D1 /* Kiev.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kiev.jpg; sourceTree = "<group>"; };
+		0657153D1E83079700EEB6D1 /* Paris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Paris.jpg; sourceTree = "<group>"; };
+		0657153F1E83079E00EEB6D1 /* Rome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rome.jpg; sourceTree = "<group>"; };
+		065715411E8307B300EEB6D1 /* London.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = London.jpg; sourceTree = "<group>"; };
+		065715431E8307D000EEB6D1 /* Berlin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Berlin.jpg; sourceTree = "<group>"; };
+		065715451E8307D600EEB6D1 /* Copenhagen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Copenhagen.jpg; sourceTree = "<group>"; };
+		065715471E8307E100EEB6D1 /* Oslo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Oslo.jpg; sourceTree = "<group>"; };
+		065715491E8307EF00EEB6D1 /* Vien.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Vien.jpg; sourceTree = "<group>"; };
+		06BAEB471E83AA010086E114 /* CustomCellFirstVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCellFirstVC.swift; path = ../CustomCellFirstVC.swift; sourceTree = "<group>"; };
+		06BAEB491E840D6E0086E114 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuVC.swift; path = ../MenuVC.swift; sourceTree = "<group>"; };
+		06BAEB4B1E8418030086E114 /* WeatherVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherVC.swift; path = ../WeatherVC.swift; sourceTree = "<group>"; };
+		06BAEB4D1E841E620086E114 /* DetailedGoogleMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailedGoogleMapVC.swift; path = ../DetailedGoogleMapVC.swift; sourceTree = "<group>"; };
+		78ADA1AE2885ADFFB3EAFA19 /* Pods_FavoritePlacesV1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FavoritePlacesV1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		934591BACF5687F6F1225A0B /* Pods-FavoritePlacesV1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FavoritePlacesV1.release.xcconfig"; path = "Pods/Target Support Files/Pods-FavoritePlacesV1/Pods-FavoritePlacesV1.release.xcconfig"; sourceTree = "<group>"; };
+		CAD25B046814DEB76A4993C1 /* Pods-FavoritePlacesV1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FavoritePlacesV1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FavoritePlacesV1/Pods-FavoritePlacesV1.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		065715051E8296ED00EEB6D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123DEF56083CAE048EE42F9A /* Pods_FavoritePlacesV1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		065714FF1E8296ED00EEB6D1 = {
+			isa = PBXGroup;
+			children = (
+				0657150A1E8296ED00EEB6D1 /* FavoritePlacesV1 */,
+				065715091E8296ED00EEB6D1 /* Products */,
+				B6729E7E4F77420AD696F54B /* Pods */,
+				6B55F40440C5A18A4093A386 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		065715091E8296ED00EEB6D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				065715081E8296ED00EEB6D1 /* FavoritePlacesV1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0657150A1E8296ED00EEB6D1 /* FavoritePlacesV1 */ = {
+			isa = PBXGroup;
+			children = (
+				06BAEB4F1E841EA90086E114 /* VC */,
+				065715361E82F9FD00EEB6D1 /* Images */,
+				0657150B1E8296ED00EEB6D1 /* AppDelegate.swift */,
+				065715111E8296ED00EEB6D1 /* Main.storyboard */,
+				065715371E82FAB100EEB6D1 /* favoritePlaces.json */,
+				065715211E82AC1300EEB6D1 /* Places.swift */,
+				065715141E8296ED00EEB6D1 /* Assets.xcassets */,
+				065715161E8296ED00EEB6D1 /* LaunchScreen.storyboard */,
+				065715191E8296ED00EEB6D1 /* Info.plist */,
+			);
+			path = FavoritePlacesV1;
+			sourceTree = "<group>";
+		};
+		065715361E82F9FD00EEB6D1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				065715491E8307EF00EEB6D1 /* Vien.jpg */,
+				065715471E8307E100EEB6D1 /* Oslo.jpg */,
+				065715451E8307D600EEB6D1 /* Copenhagen.jpg */,
+				065715431E8307D000EEB6D1 /* Berlin.jpg */,
+				065715411E8307B300EEB6D1 /* London.jpg */,
+				0657153F1E83079E00EEB6D1 /* Rome.jpg */,
+				0657153D1E83079700EEB6D1 /* Paris.jpg */,
+				0657153B1E83077B00EEB6D1 /* Kiev.jpg */,
+				065715391E83076D00EEB6D1 /* Amsterdam.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		06BAEB4F1E841EA90086E114 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				06BAEB471E83AA010086E114 /* CustomCellFirstVC.swift */,
+				0657150F1E8296ED00EEB6D1 /* SecondViewController.swift */,
+				06BAEB4D1E841E620086E114 /* DetailedGoogleMapVC.swift */,
+				06BAEB491E840D6E0086E114 /* MenuVC.swift */,
+				06BAEB4B1E8418030086E114 /* WeatherVC.swift */,
+				0657151F1E82ABDE00EEB6D1 /* MainMap.swift */,
+				0657150D1E8296ED00EEB6D1 /* FirstViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		6B55F40440C5A18A4093A386 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78ADA1AE2885ADFFB3EAFA19 /* Pods_FavoritePlacesV1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6729E7E4F77420AD696F54B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAD25B046814DEB76A4993C1 /* Pods-FavoritePlacesV1.debug.xcconfig */,
+				934591BACF5687F6F1225A0B /* Pods-FavoritePlacesV1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		065715071E8296ED00EEB6D1 /* FavoritePlacesV1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0657151C1E8296ED00EEB6D1 /* Build configuration list for PBXNativeTarget "FavoritePlacesV1" */;
+			buildPhases = (
+				DC6991BEA64124ADEAE43FC9 /* [CP] Check Pods Manifest.lock */,
+				065715041E8296ED00EEB6D1 /* Sources */,
+				065715051E8296ED00EEB6D1 /* Frameworks */,
+				065715061E8296ED00EEB6D1 /* Resources */,
+				362DEE20A991F896EBAEF617 /* [CP] Embed Pods Frameworks */,
+				FC12A83406021B41C225C516 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FavoritePlacesV1;
+			productName = FavoritePlacesV1;
+			productReference = 065715081E8296ED00EEB6D1 /* FavoritePlacesV1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		065715001E8296ED00EEB6D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Katerina;
+				TargetAttributes = {
+					065715071E8296ED00EEB6D1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 065715031E8296ED00EEB6D1 /* Build configuration list for PBXProject "FavoritePlacesV1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 065714FF1E8296ED00EEB6D1;
+			productRefGroup = 065715091E8296ED00EEB6D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				065715071E8296ED00EEB6D1 /* FavoritePlacesV1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		065715061E8296ED00EEB6D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065715181E8296ED00EEB6D1 /* LaunchScreen.storyboard in Resources */,
+				0657153A1E83076D00EEB6D1 /* Amsterdam.jpg in Resources */,
+				065715421E8307B300EEB6D1 /* London.jpg in Resources */,
+				065715401E83079E00EEB6D1 /* Rome.jpg in Resources */,
+				0657153E1E83079700EEB6D1 /* Paris.jpg in Resources */,
+				0657153C1E83077B00EEB6D1 /* Kiev.jpg in Resources */,
+				065715151E8296ED00EEB6D1 /* Assets.xcassets in Resources */,
+				065715441E8307D000EEB6D1 /* Berlin.jpg in Resources */,
+				065715481E8307E100EEB6D1 /* Oslo.jpg in Resources */,
+				0657154A1E8307EF00EEB6D1 /* Vien.jpg in Resources */,
+				065715461E8307D600EEB6D1 /* Copenhagen.jpg in Resources */,
+				065715131E8296ED00EEB6D1 /* Main.storyboard in Resources */,
+				065715381E82FAB100EEB6D1 /* favoritePlaces.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		362DEE20A991F896EBAEF617 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FavoritePlacesV1/Pods-FavoritePlacesV1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC6991BEA64124ADEAE43FC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC12A83406021B41C225C516 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FavoritePlacesV1/Pods-FavoritePlacesV1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		065715041E8296ED00EEB6D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06BAEB481E83AA020086E114 /* CustomCellFirstVC.swift in Sources */,
+				065715221E82AC1300EEB6D1 /* Places.swift in Sources */,
+				065715101E8296ED00EEB6D1 /* SecondViewController.swift in Sources */,
+				06BAEB4C1E8418030086E114 /* WeatherVC.swift in Sources */,
+				06BAEB4A1E840D6E0086E114 /* MenuVC.swift in Sources */,
+				06BAEB4E1E841E620086E114 /* DetailedGoogleMapVC.swift in Sources */,
+				0657150C1E8296ED00EEB6D1 /* AppDelegate.swift in Sources */,
+				0657150E1E8296ED00EEB6D1 /* FirstViewController.swift in Sources */,
+				065715201E82ABDE00EEB6D1 /* MainMap.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		065715111E8296ED00EEB6D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				065715121E8296ED00EEB6D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		065715161E8296ED00EEB6D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				065715171E8296ED00EEB6D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0657151A1E8296ED00EEB6D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0657151B1E8296ED00EEB6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0657151D1E8296ED00EEB6D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD25B046814DEB76A4993C1 /* Pods-FavoritePlacesV1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FavoritePlacesV1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GoIOS.FavoritePlacesV1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0657151E1E8296ED00EEB6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 934591BACF5687F6F1225A0B /* Pods-FavoritePlacesV1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FavoritePlacesV1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GoIOS.FavoritePlacesV1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		065715031E8296ED00EEB6D1 /* Build configuration list for PBXProject "FavoritePlacesV1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0657151A1E8296ED00EEB6D1 /* Debug */,
+				0657151B1E8296ED00EEB6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0657151C1E8296ED00EEB6D1 /* Build configuration list for PBXNativeTarget "FavoritePlacesV1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0657151D1E8296ED00EEB6D1 /* Debug */,
+				0657151E1E8296ED00EEB6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 065715001E8296ED00EEB6D1 /* Project object */;
+}

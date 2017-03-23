@@ -1,0 +1,97 @@
+[
+  {
+    "lat": 52.379189,
+    "lon": 4.899431,
+    "id": 1,
+    "name": "Amsterdam",
+    "description": "The city center of amsterdam is known for its canals",
+    "useful_links": [
+      {
+        "id": 1,
+        "discription": "Lonely Planet page",
+        "url": "https://www.lonelyplanet.com/the-netherlands/amsterdam",
+        "destination_id": 1
+      }
+    ],
+    "images": [
+      {
+        "id": 1,
+        "discription": "A canal",
+        "url": "http://www.westcordhotels.nl/wp-content/uploads/2015/10/grachten-hotels-amsterdam.jpg",
+        "destination_id": 1
+      }
+    ]
+  },
+  {
+    "lat": 50.4501,
+    "lon": 30.5234,
+    "id": 2,
+    "name": "Kiev",
+    "description": "I am still waiting for my tour :)",
+    "useful_links": [
+      {
+        "id": 2,
+        "discription": "Lonely Planet  page",
+        "url": "https://www.lonelyplanet.com/ukraine/kyiv",
+        "destination_id": 3
+      }
+    ],
+    "images": [
+      {
+        "id": 1,
+        "discription": "Independance square",
+        "url": "http://visittoukraine.com/uploads/images/news/kyiv(4).jpg",
+        "destination_id": 3
+      }
+    ]
+  },
+ {
+   "lat": 48.857256,
+   "lon": 2.352705,
+   "id": 3,
+   "name": "Paris",
+   "description": "A very romantic city"
+ },
+ {
+   "lat": 41.890646,
+   "lon": 12.492312,
+   "id": 4,
+   "name": "Rome",
+   "description": "When in Rome, do as the Romans do"
+ },
+ {
+   "lat": 51.500708,
+   "lon": -0.124623,
+   "id": 5,
+   "name": "London",
+   "description": "London the capital of great britain"
+ },
+ {
+   "lat": 52.513635,
+   "lon": 13.392727,
+   "id": 6,
+   "name": "Berlin",
+   "description": "Berlin is the capital and the largest city of Germany as well as one of its constituent 16 states"
+ },
+ {
+   "lat": 55.680225,
+   "lon": 12.572295,
+   "id": 7,
+   "name": "Copenhagen",
+   "description": "Copenhagen is in the oceanic climate zone"
+ },
+ {
+   "lat": 59.912721,
+   "lon": 10.746404,
+   "id": 8,
+   "name": "Oslo",
+   "description": "Oslo is the economic and governmental centre of Norway"
+ },
+ {
+   "lat": 48.207659,
+   "lon": 16.366126,
+   "id": 9,
+   "name": "Vienna",
+   "description": "6.2 million tourists visited Vienna in 2014 amounting to 13,524,266 overnight stays"
+ }
+]
