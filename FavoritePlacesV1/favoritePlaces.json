@@ -50,48 +50,104 @@
    "lon": 2.352705,
    "id": 3,
    "name": "Paris",
-   "description": "A very romantic city"
+   "description": "A very romantic city",
+   "useful_links": [
+                  {
+                  "id": 1,
+                  "discription": "Paris is the capital and most populous city of France",
+                  "url": "https://en.wikipedia.org/wiki/Paris",
+                  "destination_id": 3
+                  }
+    ]
  },
  {
    "lat": 41.890646,
    "lon": 12.492312,
    "id": 4,
    "name": "Rome",
-   "description": "When in Rome, do as the Romans do"
+   "description": "When in Rome, do as the Romans do",
+   "useful_links": [
+                  {
+                  "id": 1,
+                  "discription": "Rome is a special comune (named Comune di Roma Capitale) and the capital of Italy",
+                  "url": "https://en.wikipedia.org/wiki/Rome",
+                  "destination_id": 4
+                  }
+    ]
  },
  {
    "lat": 51.500708,
    "lon": -0.124623,
    "id": 5,
    "name": "London",
-   "description": "London the capital of great britain"
+   "description": "London the capital of great britain",
+   "useful_links": [
+                  {
+                  "id": 1,
+                  "discription": "London!",
+                  "url": "https://en.wikipedia.org/wiki/London",
+                  "destination_id": 5
+                  }
+    ]
  },
  {
    "lat": 52.513635,
    "lon": 13.392727,
    "id": 6,
    "name": "Berlin",
-   "description": "Berlin is the capital and the largest city of Germany as well as one of its constituent 16 states"
+   "description": "Berlin is the capital and the largest city of Germany as well as one of its constituent 16 states",
+   "useful_links": [
+                  {
+                  "id": 1,
+                  "discription": "Berlin is the capital and the largest city of Germany as well as one of its constituent 16 states.",
+                  "url": "https://en.wikipedia.org/wiki/Berlin",
+                  "destination_id": 6
+                  }
+    ]
  },
  {
    "lat": 55.680225,
    "lon": 12.572295,
    "id": 7,
    "name": "Copenhagen",
-   "description": "Copenhagen is in the oceanic climate zone"
+   "description": "Copenhagen is in the oceanic climate zone",
+   "useful_links": [
+                  {
+                  "id": 1,
+                  "discription": "Copenhagen is the capital and most populous city of Denmark.",
+                  "url": "https://en.wikipedia.org/wiki/Copenhagen",
+                  "destination_id": 7
+                  }
+    ]
  },
  {
    "lat": 59.912721,
    "lon": 10.746404,
    "id": 8,
    "name": "Oslo",
-   "description": "Oslo is the economic and governmental centre of Norway"
+   "description": "Oslo is the economic and governmental centre of Norway",
+   "useful_links": [
+                  {
+                  "id": 1,
+                  "discription": "Oslo is the capital and the most populous city in Norway",
+                  "url": "https://en.wikipedia.org/wiki/Oslo",
+                  "destination_id": 8
+                  }
+    ]
  },
  {
    "lat": 48.207659,
    "lon": 16.366126,
    "id": 9,
    "name": "Vienna",
-   "description": "6.2 million tourists visited Vienna in 2014 amounting to 13,524,266 overnight stays"
+   "description": "6.2 million tourists visited Vienna in 2014 amounting to 13,524,266 overnight stays",
+   "useful_links": [
+                  {
+                  "id": 1,
+                  "discription": "Vienna is the capital and largest city of Austria and one of the nine states of Austria. ",
+                  "url": "https://en.wikipedia.org/wiki/Vienna",
+                  "destination_id": 9
+                  }
+    ]
  }
 ]

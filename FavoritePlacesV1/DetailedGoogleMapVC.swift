@@ -13,9 +13,13 @@ class DetailedGoogleMapVC: UIViewController {
 
     @IBOutlet weak var googleMapsContainer: UIView!
     var selectedPlace = Place()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        self.navigationController?.navigationBar.tintColor = UIColor.red
+        self.navigationItem.title = selectedPlace.name
+        
         GMSServices.provideAPIKey("AIzaSyBeYMUOLgbdwGtufxy4WUApaHgonMBeZ2Y")
         let camera = GMSCameraPosition.camera(withLatitude: selectedPlace.latitude, longitude: selectedPlace.longitude, zoom: 6.0)
         let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)

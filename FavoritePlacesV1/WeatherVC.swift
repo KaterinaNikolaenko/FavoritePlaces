@@ -16,7 +16,12 @@ class WeatherVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationController?.navigationBar.tintColor = UIColor.red
+        self.navigationItem.title = selectedPlace.name
+        //self.navigationController!.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
 
+        
        // if let url = URL(string: "http://www.weather-forecast.com/locations/" + cityTextField.text!.replacingOccurrences(of: " ", with: "-") + "/forecasts/latest") {
         if let url = URL(string: "http://www.weather-forecast.com/locations/" + selectedPlace.name + "/forecasts/latest") {
             

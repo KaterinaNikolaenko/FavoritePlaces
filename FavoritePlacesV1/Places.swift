@@ -7,13 +7,13 @@
 //
 
 import Foundation
+
 class Place {
     var id:Int = 0
     var name:String = ""
     var longitude:Double = 0.0
     var latitude:Double = 0.0
-    // var description: String = ""
-    // var photo
-    // var email
+    var description: String = ""
+    var links: [UsefulLink] = []
     
 }

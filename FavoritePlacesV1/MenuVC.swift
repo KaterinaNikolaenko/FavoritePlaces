@@ -14,13 +14,16 @@ class MenuVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var selectedPlace = Place()
     var menuItems = ["Description", "Map", "Weather", "Currrency", "Sights", "Embassies and Consulates", "Booking hotels"]
+    var menuImages = ["info", "world", "newsletter", "euro_currency_sign", "photo_camera", "flag", "home_red"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         self.tableViewMenu.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         self.tableViewMenu.dataSource = self
+        self.tableViewMenu.rowHeight = 70.0
+        self.navigationController?.navigationBar.tintColor = UIColor.red
         
-
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,6 +40,8 @@ class MenuVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         let cell: UITableViewCell = self.tableViewMenu.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
        
         cell.textLabel?.text = self.menuItems[indexPath.row]
+        let image : UIImage = UIImage(named: self.menuImages[indexPath.row])!
+        cell.imageView?.image = image
         
         return cell
     }
@@ -59,9 +64,15 @@ class MenuVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
           let selectPlace1 = segue.destination as! WeatherVC
           selectPlace1.selectedPlace = sender as! Place
         }
+        
         if segue.identifier == "showMap" {
             let selectPlace2 = segue.destination as! DetailedGoogleMapVC
             selectPlace2.selectedPlace = sender as! Place
+        }
+        
+        if segue.identifier == "showDescription" {
+            let selectPlace3 = segue.destination as! CityDescriptionVC
+            selectPlace3.selectedPlace = sender as! Place
         }
         
     }

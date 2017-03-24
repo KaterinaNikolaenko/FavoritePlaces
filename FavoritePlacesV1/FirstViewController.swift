@@ -21,6 +21,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
        
     }
     override func viewWillAppear(_ animated: Bool) {
+        
         getPlaces()
     }
     
@@ -86,7 +87,20 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
                 myPlace.name = jsonResult["name"] as! String
                 myPlace.latitude = jsonResult["lat"] as! Double
                 myPlace.longitude = jsonResult["lon"] as! Double
+                myPlace.description = jsonResult["description"] as! String
                 
+                let jsonResultLinks = jsonResult["useful_links"] as! [[String:AnyObject]]
+                var usefulLinks = [UsefulLink]()
+                for jsonResultLink in jsonResultLinks {
+                    let myLink = UsefulLink()
+                    myLink.id = jsonResultLink["id"] as! Int
+                    myLink.discription = jsonResultLink["discription"] as! String
+                    myLink.url = jsonResultLink["url"] as! String
+                    //myLink.url = URL(string: jsonResultLink["url"] as! String)! as URL
+                    
+                    usefulLinks.append(myLink)
+                }
+                myPlace.links = usefulLinks
                 places.append(myPlace)
             }
             

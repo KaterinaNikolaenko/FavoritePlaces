@@ -29,6 +29,19 @@
 		06BAEB4A1E840D6E0086E114 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BAEB491E840D6E0086E114 /* MenuVC.swift */; };
 		06BAEB4C1E8418030086E114 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BAEB4B1E8418030086E114 /* WeatherVC.swift */; };
 		06BAEB4E1E841E620086E114 /* DetailedGoogleMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BAEB4D1E841E620086E114 /* DetailedGoogleMapVC.swift */; };
+		06BAEB511E8524B30086E114 /* CityDescriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BAEB501E8524B30086E114 /* CityDescriptionVC.swift */; };
+		06BAEB531E852FE10086E114 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BAEB521E852FE10086E114 /* PopUpViewController.swift */; };
+		06BAEB561E855D7C0086E114 /* UsefulLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BAEB551E855D7C0086E114 /* UsefulLinks.swift */; };
+		06BAEB591E857A850086E114 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BAEB581E857A850086E114 /* MyTabBarController.swift */; };
+		06BAEB5B1E8580960086E114 /* world.png in Resources */ = {isa = PBXBuildFile; fileRef = 06BAEB5A1E8580960086E114 /* world.png */; };
+		06BAEB5D1E8581F60086E114 /* euro_currency_sign.png in Resources */ = {isa = PBXBuildFile; fileRef = 06BAEB5C1E8581F60086E114 /* euro_currency_sign.png */; };
+		06BAEB5F1E85822E0086E114 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 06BAEB5E1E85822E0086E114 /* info.png */; };
+		06BAEB611E85826B0086E114 /* newsletter.png in Resources */ = {isa = PBXBuildFile; fileRef = 06BAEB601E85826B0086E114 /* newsletter.png */; };
+		06BAEB631E85829A0086E114 /* home_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 06BAEB621E85829A0086E114 /* home_red.png */; };
+		06BAEB651E8582AD0086E114 /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 06BAEB641E8582AD0086E114 /* flag.png */; };
+		06BAEB671E8582D10086E114 /* photo_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 06BAEB661E8582D10086E114 /* photo_camera.png */; };
+		06BAEB711E858DD90086E114 /* travel2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06BAEB701E858DD90086E114 /* travel2.jpg */; };
+		06BAEB731E858DDF0086E114 /* time-to-travel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06BAEB721E858DDF0086E114 /* time-to-travel.jpg */; };
 		123DEF56083CAE048EE42F9A /* Pods_FavoritePlacesV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78ADA1AE2885ADFFB3EAFA19 /* Pods_FavoritePlacesV1.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,8 +55,8 @@
 		065715171E8296ED00EEB6D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		065715191E8296ED00EEB6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0657151F1E82ABDE00EEB6D1 /* MainMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainMap.swift; path = ../MainMap.swift; sourceTree = "<group>"; };
-		065715211E82AC1300EEB6D1 /* Places.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
-		065715371E82FAB100EEB6D1 /* favoritePlaces.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = favoritePlaces.json; sourceTree = "<group>"; };
+		065715211E82AC1300EEB6D1 /* Places.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Places.swift; path = ../Places.swift; sourceTree = "<group>"; };
+		065715371E82FAB100EEB6D1 /* favoritePlaces.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = favoritePlaces.json; path = ../favoritePlaces.json; sourceTree = "<group>"; };
 		065715391E83076D00EEB6D1 /* Amsterdam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Amsterdam.jpg; sourceTree = "<group>"; };
 		0657153B1E83077B00EEB6D1 /* Kiev.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kiev.jpg; sourceTree = "<group>"; };
 		0657153D1E83079700EEB6D1 /* Paris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Paris.jpg; sourceTree = "<group>"; };
@@ -57,6 +70,19 @@
 		06BAEB491E840D6E0086E114 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuVC.swift; path = ../MenuVC.swift; sourceTree = "<group>"; };
 		06BAEB4B1E8418030086E114 /* WeatherVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherVC.swift; path = ../WeatherVC.swift; sourceTree = "<group>"; };
 		06BAEB4D1E841E620086E114 /* DetailedGoogleMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailedGoogleMapVC.swift; path = ../DetailedGoogleMapVC.swift; sourceTree = "<group>"; };
+		06BAEB501E8524B30086E114 /* CityDescriptionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDescriptionVC.swift; sourceTree = "<group>"; };
+		06BAEB521E852FE10086E114 /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		06BAEB551E855D7C0086E114 /* UsefulLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsefulLinks.swift; path = ../UsefulLinks.swift; sourceTree = "<group>"; };
+		06BAEB581E857A850086E114 /* MyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		06BAEB5A1E8580960086E114 /* world.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = world.png; sourceTree = "<group>"; };
+		06BAEB5C1E8581F60086E114 /* euro_currency_sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = euro_currency_sign.png; sourceTree = "<group>"; };
+		06BAEB5E1E85822E0086E114 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		06BAEB601E85826B0086E114 /* newsletter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newsletter.png; sourceTree = "<group>"; };
+		06BAEB621E85829A0086E114 /* home_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_red.png; sourceTree = "<group>"; };
+		06BAEB641E8582AD0086E114 /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = "<group>"; };
+		06BAEB661E8582D10086E114 /* photo_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_camera.png; sourceTree = "<group>"; };
+		06BAEB701E858DD90086E114 /* travel2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = travel2.jpg; sourceTree = "<group>"; };
+		06BAEB721E858DDF0086E114 /* time-to-travel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "time-to-travel.jpg"; sourceTree = "<group>"; };
 		78ADA1AE2885ADFFB3EAFA19 /* Pods_FavoritePlacesV1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FavoritePlacesV1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		934591BACF5687F6F1225A0B /* Pods-FavoritePlacesV1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FavoritePlacesV1.release.xcconfig"; path = "Pods/Target Support Files/Pods-FavoritePlacesV1/Pods-FavoritePlacesV1.release.xcconfig"; sourceTree = "<group>"; };
 		CAD25B046814DEB76A4993C1 /* Pods-FavoritePlacesV1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FavoritePlacesV1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FavoritePlacesV1/Pods-FavoritePlacesV1.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,12 +121,11 @@
 		0657150A1E8296ED00EEB6D1 /* FavoritePlacesV1 */ = {
 			isa = PBXGroup;
 			children = (
+				06BAEB571E855DDA0086E114 /* Data */,
+				06BAEB541E855D160086E114 /* Model */,
 				06BAEB4F1E841EA90086E114 /* VC */,
-				065715361E82F9FD00EEB6D1 /* Images */,
 				0657150B1E8296ED00EEB6D1 /* AppDelegate.swift */,
 				065715111E8296ED00EEB6D1 /* Main.storyboard */,
-				065715371E82FAB100EEB6D1 /* favoritePlaces.json */,
-				065715211E82AC1300EEB6D1 /* Places.swift */,
 				065715141E8296ED00EEB6D1 /* Assets.xcassets */,
 				065715161E8296ED00EEB6D1 /* LaunchScreen.storyboard */,
 				065715191E8296ED00EEB6D1 /* Info.plist */,
@@ -114,14 +139,24 @@
 				065715491E8307EF00EEB6D1 /* Vien.jpg */,
 				065715471E8307E100EEB6D1 /* Oslo.jpg */,
 				065715451E8307D600EEB6D1 /* Copenhagen.jpg */,
+				06BAEB5A1E8580960086E114 /* world.png */,
+				06BAEB5C1E8581F60086E114 /* euro_currency_sign.png */,
 				065715431E8307D000EEB6D1 /* Berlin.jpg */,
 				065715411E8307B300EEB6D1 /* London.jpg */,
+				06BAEB621E85829A0086E114 /* home_red.png */,
+				06BAEB641E8582AD0086E114 /* flag.png */,
+				06BAEB661E8582D10086E114 /* photo_camera.png */,
+				06BAEB5E1E85822E0086E114 /* info.png */,
+				06BAEB601E85826B0086E114 /* newsletter.png */,
+				06BAEB701E858DD90086E114 /* travel2.jpg */,
+				06BAEB721E858DDF0086E114 /* time-to-travel.jpg */,
 				0657153F1E83079E00EEB6D1 /* Rome.jpg */,
 				0657153D1E83079700EEB6D1 /* Paris.jpg */,
 				0657153B1E83077B00EEB6D1 /* Kiev.jpg */,
 				065715391E83076D00EEB6D1 /* Amsterdam.jpg */,
 			);
-			path = Images;
+			name = Images;
+			path = ../Images;
 			sourceTree = "<group>";
 		};
 		06BAEB4F1E841EA90086E114 /* VC */ = {
@@ -131,11 +166,32 @@
 				0657150F1E8296ED00EEB6D1 /* SecondViewController.swift */,
 				06BAEB4D1E841E620086E114 /* DetailedGoogleMapVC.swift */,
 				06BAEB491E840D6E0086E114 /* MenuVC.swift */,
+				06BAEB501E8524B30086E114 /* CityDescriptionVC.swift */,
+				06BAEB521E852FE10086E114 /* PopUpViewController.swift */,
 				06BAEB4B1E8418030086E114 /* WeatherVC.swift */,
 				0657151F1E82ABDE00EEB6D1 /* MainMap.swift */,
 				0657150D1E8296ED00EEB6D1 /* FirstViewController.swift */,
+				06BAEB581E857A850086E114 /* MyTabBarController.swift */,
 			);
 			path = VC;
+			sourceTree = "<group>";
+		};
+		06BAEB541E855D160086E114 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06BAEB551E855D7C0086E114 /* UsefulLinks.swift */,
+				065715211E82AC1300EEB6D1 /* Places.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		06BAEB571E855DDA0086E114 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				065715361E82F9FD00EEB6D1 /* Images */,
+				065715371E82FAB100EEB6D1 /* favoritePlaces.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		6B55F40440C5A18A4093A386 /* Frameworks */ = {
@@ -218,13 +274,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				065715181E8296ED00EEB6D1 /* LaunchScreen.storyboard in Resources */,
+				06BAEB671E8582D10086E114 /* photo_camera.png in Resources */,
+				06BAEB731E858DDF0086E114 /* time-to-travel.jpg in Resources */,
+				06BAEB711E858DD90086E114 /* travel2.jpg in Resources */,
 				0657153A1E83076D00EEB6D1 /* Amsterdam.jpg in Resources */,
+				06BAEB631E85829A0086E114 /* home_red.png in Resources */,
 				065715421E8307B300EEB6D1 /* London.jpg in Resources */,
 				065715401E83079E00EEB6D1 /* Rome.jpg in Resources */,
 				0657153E1E83079700EEB6D1 /* Paris.jpg in Resources */,
+				06BAEB611E85826B0086E114 /* newsletter.png in Resources */,
 				0657153C1E83077B00EEB6D1 /* Kiev.jpg in Resources */,
 				065715151E8296ED00EEB6D1 /* Assets.xcassets in Resources */,
+				06BAEB5F1E85822E0086E114 /* info.png in Resources */,
+				06BAEB5D1E8581F60086E114 /* euro_currency_sign.png in Resources */,
 				065715441E8307D000EEB6D1 /* Berlin.jpg in Resources */,
+				06BAEB651E8582AD0086E114 /* flag.png in Resources */,
+				06BAEB5B1E8580960086E114 /* world.png in Resources */,
 				065715481E8307E100EEB6D1 /* Oslo.jpg in Resources */,
 				0657154A1E8307EF00EEB6D1 /* Vien.jpg in Resources */,
 				065715461E8307D600EEB6D1 /* Copenhagen.jpg in Resources */,
@@ -291,10 +356,14 @@
 				06BAEB481E83AA020086E114 /* CustomCellFirstVC.swift in Sources */,
 				065715221E82AC1300EEB6D1 /* Places.swift in Sources */,
 				065715101E8296ED00EEB6D1 /* SecondViewController.swift in Sources */,
+				06BAEB531E852FE10086E114 /* PopUpViewController.swift in Sources */,
 				06BAEB4C1E8418030086E114 /* WeatherVC.swift in Sources */,
+				06BAEB591E857A850086E114 /* MyTabBarController.swift in Sources */,
 				06BAEB4A1E840D6E0086E114 /* MenuVC.swift in Sources */,
 				06BAEB4E1E841E620086E114 /* DetailedGoogleMapVC.swift in Sources */,
+				06BAEB511E8524B30086E114 /* CityDescriptionVC.swift in Sources */,
 				0657150C1E8296ED00EEB6D1 /* AppDelegate.swift in Sources */,
+				06BAEB561E855D7C0086E114 /* UsefulLinks.swift in Sources */,
 				0657150E1E8296ED00EEB6D1 /* FirstViewController.swift in Sources */,
 				065715201E82ABDE00EEB6D1 /* MainMap.swift in Sources */,
 			);
